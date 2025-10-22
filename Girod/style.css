@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(53, 7, 255);
+    margin: 130PX;
+    text-align: center;
+}
+
+header {
+    font-style: italic;
+    color: white;
+}
+
+section {
+    box-shadow: 0 10PX 30px rgb(238, 235, 235);
+    border-radius: 19px;
+    border: none;
+    background-color: white;
+    width: 300px;
+    margin-left: 40%;
+}
+
+.Ha {
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Hi{
+    margin-left: 25PX;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.He {
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bord {
+    border:  none ;
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    width: 90%;
+    height: 5px;
+    margin-left: 5%;
+    align-items: center;
+    background-color: blue;
+}

@@ -1,0 +1,90 @@
+/* Styles généraux du corps */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fond légèrement gris */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur principal de la carte */
+.carte-identite {
+    width: 350px; /* Largeur typique d'une carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border: 1px solid #000080; /* Bordure bleu marine */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de la carte */
+.titre {
+    text-align: center;
+    color: #000080; /* Texte bleu marine */
+    border-bottom: 2px solid #000080;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Contenu (Photo et Infos) */
+.contenu {
+    display: flex; /* Permet d'aligner la photo et les infos côte à côte */
+    gap: 15px; /* Espace entre les deux colonnes */
+    margin: 15px 0;
+}
+
+/* Espace réservé pour la photo */
+.photo-placeholder {
+    width: 90px;
+    height: 110px;
+    background-color: #e0e0e0; /* Couleur grise pour la boîte de la photo */
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    color: #666;
+    flex-shrink: 0; /* Empêche la boîte de rétrécir */
+}
+
+/* Conteneur des informations textuelles */
+.informations {
+    flex-grow: 1; /* Prend l'espace restant */
+}
+
+/* Ligne d'information (label + valeur) */
+.info-ligne {
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.label {
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    width: 120px; /* Alignement des valeurs */
+}
+
+.valeur {
+    color: #000;
+}
+
+/* Texte de signature */
+.signature {
+    text-align: right;
+    font-style: italic;
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 1px dashed #aaa;
+    font-size: 0.9em;
+    color: #555;
+}

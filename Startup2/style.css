@@ -1,0 +1,246 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      
+    }
+
+    /* body{
+        background-color: white;
+        color: #333;
+    } */
+      /* navigation  */
+
+    header {
+        background-color: aquamarine;
+        color: white;
+        background-color: #1e88e5;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+    }
+
+    span {
+        font-style: italic;
+        font-size: 2em;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        transition: 0.35s;
+        font-weight: 500px;
+    }
+
+    nav a:hover {
+        color:green ;
+    }
+
+
+    /* premièresection */
+
+    .Entré {
+        text-align: center;
+        background-color: blueviolet;
+        padding: 80px 20px;
+        
+    }
+
+
+    .Entré h1  {
+        font-style: italic;
+        color: white;
+    }
+
+    .Entré p {
+        color: white;
+        margin-top: 20PX;
+        font-size: 1.5em;
+    }
+
+
+    /* Deuxièmesection */
+
+
+    /* Documentweb */
+
+    .Services {
+        text-align: center;
+        background-color: white;
+        display: block;
+    }
+
+    .Services h1 {
+        margin-top: 40PX;
+        color: blue;
+        font-size: 2em;
+    }
+
+    .Services1 {
+        margin: 20PX;
+        border: none;
+        border-radius: 10PX;
+        width: 30%;
+        height: 190px;
+        box-shadow: 0 0 10PX ;
+        margin-left: 35% ;
+    }
+
+    .Services1 h3 {
+         /* flex-wrap: wrap; */
+        padding: 10%;
+        color: blue;
+        font-size: 1em;
+    }
+
+    .Services1 p {
+        color: grey;
+        margin-top: 5PX;
+    }
+
+    .Services:hover {
+        transform: translateX(50px);
+    }
+ 
+    /* Robotisation */
+
+    .Services h1 {
+        margin-top: 40PX;
+        color: blue;
+        font-size: 2em;
+    }
+
+    .Services2 {
+        margin: 20PX;
+        border: none;
+        border-radius: 10PX;
+        width: 30%;
+        height: 190px;
+        box-shadow: 0 0 10PX ;
+        margin-left: 35% ;
+    }
+
+    .Services2 h3 {
+         /* flex-wrap: wrap; */
+        padding: 10%;
+        color: blue;
+        font-size: 1em;
+    }
+
+    .Services2 p {
+        color: grey;
+        margin-top: 5PX;
+    }
+
+    .Services:hover {
+        transform: translateX(50px);
+    }
+
+
+    /* Apprendre IA */
+    
+    .Services h1 {
+        margin-top: 40PX;
+        color: blue;
+        font-size: 2em;
+    }
+
+    .Services3 {
+        margin: 20PX;
+        border: none;
+        border-radius: 10PX;
+        width: 30%;
+        height: 190px;
+        box-shadow: 0 0 10PX ;
+        margin-left: 35% ;
+    }
+
+    .Services3 h3 {
+         /* flex-wrap: wrap; */
+        padding: 10%;
+        color: blue;
+        font-size: 1em;
+    }
+
+    .Services3 p {
+        color: grey;
+        margin-top: 5PX;
+    }
+
+    .Services:hover {
+        transform: translateX(5Opx);
+    }
+
+
+    /* --------- Contact --------- */
+    .contact {
+      background-color: #e3f2fd;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: #1e88e5;
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+
+    /* pied de page */
+
+    footer {
+      background-color: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+     @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      .Services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    
